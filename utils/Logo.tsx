@@ -8,7 +8,7 @@ const Logo = () => {
         <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center flex-col">
           <CgAbstract className="text-4xl text-black" />
         </div>
-        <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold">
+        <h1 className="text-xl hidden sm:block md:text-2xl text-white font-bold select-none">
           Agensite
         </h1>
       </div>

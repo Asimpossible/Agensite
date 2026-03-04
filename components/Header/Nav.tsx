@@ -25,7 +25,7 @@ const Nav = ({ openNav }: IProps) => {
   }, []);
   return (
     <div
-      className={`transition-all  duration-200 ${navBg ? "dark:bg-gray-900 bg-blue-950 shadow-md duration-300" : "fixed"} fixed h-[12vh] z-100 w-full bg-black`}
+      className={`transition-all  duration-200 ${navBg ? "dark:bg-gray-900 bg-blue-950 shadow-md duration-300" : "fixed"} fixed h-[12vh] z-100 w-full`}
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
@@ -35,7 +35,7 @@ const Nav = ({ openNav }: IProps) => {
             <Link
               key={link.id}
               href={link.url}
-              className="text-white hover:text-indigo-400 transition-all hover:text-[17px] duration-200 font-semibold"
+              className="text-white hover:text-indigo-400 transition-all hover:text-[17px] duration-200 font-semibold select-none"
             >
               {link.label}
             </Link>

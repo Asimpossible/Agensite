@@ -1,6 +1,7 @@
 "use client";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Services from "@/components/Services";
 import React from "react";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Hero />
       <About />
+      <Services />
     </div>
   );
 };
